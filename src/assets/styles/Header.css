@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 40px;
+  background: #111827;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.header .search-bar {
+  flex: 1;
+  max-width: 500px;
+}
+
+.app.dark .header {
+  background: #000;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .header .search-bar {
+    width: 100%;
+    max-width: 100%;
+  }
+}

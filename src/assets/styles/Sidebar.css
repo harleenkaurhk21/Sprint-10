@@ -1,0 +1,35 @@
+.sidebar {
+  width: 250px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.filter-group select,
+.filter-group input {
+  width: 100%;
+  padding: 8px;
+}
+
+.reset-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: crimson;
+  color: white;
+  border-radius: 6px;
+}
+
+.reset-btn:hover {
+  opacity: 0.9;
+}
